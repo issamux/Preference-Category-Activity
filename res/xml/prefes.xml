@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="اختيارات" >
+        <ListPreference
+            android:entries="@array/colorchoices"
+            android:entryValues="@array/colorchoicesValues"
+            android:summary="@string/pref_color"
+            android:key="prefColor"
+            android:title="إختر لون عرض النص" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
